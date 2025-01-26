@@ -1,61 +1,32 @@
 /* CSS for index.html */
 
+h1{
+    text-align: center;
+}
 .position{
-    position: relative;
-    width: 710px;
+    width: 450px;
     border: 5px solid black;
     
 }
-
-.position-box img{
-    /* width: 600px;
-    height: 280px; */
-    border: 2px solid red;
+.position-box{
+    position: relative;
 }
 
-.pink-box{
-    position: fixed;
-    top: 100px;
-    left: 50px;
+.frame{
+    z-index: 10;
+}
+.women{
+    top: -190px;
+    z-index: 5;
 }
 .icon-box{
-    position: fixed;
-    top: 300px;
-    right: 10px;
-
+    top: -350px;
+    left: 350px;
+    z-index: 15;
 }
 
-/* .women{
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    position: sticky;
-    top: 0;
-} */
-/* .pink-box{
-    position: fixed;
-    left: 10px;
-} */
-.another-box{
-    border: 5px solid green;
-}
-.dummy-box{
-    width: 600px;
-    height: 280px;
-    background-color: rgb(17, 198, 211);
-    margin-top: 30px;
-}
 
-/* .positi-box img{
-    width: 600px;
-    height: 280px;
-} */
-/* .frame{
-    position: relative;
-    left: 100px;
-    top: 100px;
-    
-} */
+
 
 
 
