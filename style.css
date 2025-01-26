@@ -8,25 +8,41 @@
 }
 
 .position-box img{
-    width: 600px;
-    height: 280px;
-    border: 5px solid red;
+    /* width: 600px;
+    height: 280px; */
+    border: 2px solid red;
 }
 
-.women{
-    /* position: absolute;
+.pink-box{
+    position: fixed;
     top: 100px;
-    left: 100px; */
+    left: 50px;
+}
+.icon-box{
+    position: fixed;
+    top: 300px;
+    right: 10px;
+
+}
+
+/* .women{
+    position: absolute;
+    top: 100px;
+    left: 100px;
     position: sticky;
     top: 0;
-}
+} */
+/* .pink-box{
+    position: fixed;
+    left: 10px;
+} */
 .another-box{
     border: 5px solid green;
 }
 .dummy-box{
     width: 600px;
     height: 280px;
-    background-color: blue;
+    background-color: rgb(17, 198, 211);
     margin-top: 30px;
 }
 
