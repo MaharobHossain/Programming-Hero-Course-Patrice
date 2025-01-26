@@ -3,26 +3,31 @@
 h1{
     text-align: center;
 }
-.position{
-    width: 450px;
-    border: 5px solid black;
-    
-}
-.position-box{
-    position: relative;
-}
 
-.frame{
-    z-index: 10;
+h2::after{
+    content: '.pdf';
+    color: rgb(234, 0, 255);
+    font-size: 15px;
+    background-color: rgb(9, 233, 196);
 }
-.women{
-    top: -190px;
-    z-index: 5;
+h2::before{
+    content: 'Start :';
+    color: rgb(234, 0, 255);
+    font-size: 15px;
+    background-color: rgb(9, 233, 196);
 }
-.icon-box{
-    top: -350px;
-    left: 350px;
-    z-index: 15;
+p::first-letter{
+    font-size: 90px;
+}
+p::first-line{
+    background-color: aqua;
+}
+input::placeholder{
+    color: chocolate;
+    background-color: blanchedalmond;
+}
+::selection{
+    background-color: chartreuse;
 }
 
 
