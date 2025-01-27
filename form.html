@@ -16,10 +16,27 @@
             text-decoration: none;
             color: black;
         }
+        .login-container{
+            display: flex;
+            height: 90vh;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid tomato;
+
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            border: 2px solid blueviolet;
+            background-color: rgb(27, 216, 184);
+        }
+        .login-form input{
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Form</h1>
 
     <nav>
         <div class="right-side">
@@ -29,8 +46,19 @@
         <a href="">About</a>
         </div>
         <a href=""> Log-in</a>
-
     </nav>
+
+   <section class="login-container">
+    <form action="" class="login-form">
+        <h1>Please Login </h1>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" name="" id="" placeholder="Your Email" required>
+        <input type="password" name="" id="" placeholder="password" required>
+        <input type="submit" value="Log-in">
+    </form>
+   </section>
+
+
     
 </body>
 </html>
