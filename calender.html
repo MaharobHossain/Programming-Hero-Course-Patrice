@@ -11,17 +11,22 @@
         .container{
             display: grid;
             grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: 40px repeat(5, 50px);
             row-gap: 20px;
             column-gap: 30px;
         }
-        .date{
+        .date, .day{
             background-color: aqua;
             border-radius: 4px;
-            height: 40px;
+            /* height: 40px; */
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 30px;
+            font-size: 34px;
+        }
+        .day{
+            background-color: chartreuse;
+            font-size: 25px;
         }
     </style>
 
@@ -30,6 +35,13 @@
     <h1>Calender Create</h1>
 
     <div class="container">
+        <div class="day">S</div>
+        <div class="day">M</div>
+        <div class="day">T</div>
+        <div class="day">W</div>
+        <div class="day">T</div>
+        <div class="day">F</div>
+        <div class="day">S</div>
         <div class="date">29</div>
         <div class="date">30</div>
         <div class="date">31</div>
