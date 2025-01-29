@@ -4,7 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Display</title>
-</head>
+    <style>
+         h1{
+            text-align: center;
+        }
+        .container{
+            display: grid;
+            /* grid-template-columns: 100px 200px ; */
+            /* grid-template-columns: repeat(2, 100px) 200px 110px; */
+            grid-template-columns: repeat(6, 1fr) 2fr 4fr;
+
+        }
+        .item{
+            border: 1px solid red;
+        }
+    </style>
 <body>
     <h1>Grid Display</h1>
 
