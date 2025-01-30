@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Display</title>
     <style>
+        body{
+            border: 2px solid rgb(81, 255, 0);
+            max-width: 1140px;
+            margin: 0 auto;
+        }
          h1{
             text-align: center;
         }
@@ -17,6 +22,18 @@
         }
         .item{
             border: 1px solid red;
+        }
+
+
+        .container2{
+            display: flex;
+
+        }
+        .container2 .box{
+            width: 50%;
+        }
+        .container2 img{
+            width: 100%;
         }
     </style>
 <body>
@@ -43,6 +60,16 @@
         <div class="item">Item no 18</div>
         <div class="item">Item no 19</div>
         <div class="item">Item no 20</div>
+    </div>
+
+
+    <div class="container2">
+        <div class="box">
+            <img src="Images/woman pic.png" alt="">
+        </div>
+        <div class="box">
+            <img src="Images/Illustration.png.png" alt="">
+        </div>
     </div>
     
 </body>
