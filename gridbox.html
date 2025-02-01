@@ -8,6 +8,25 @@
         h1{
             text-align: center;
         }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 100px) 40px 40px;
+            gap: 30px;
+
+        }
+        .box{
+            background-color: rgb(128, 128, 128);
+        }
+        #box1{
+            grid-row: span 5;
+        }
+        #box11, #box12{
+            grid-column: span 3;
+        }
+        #box6, #box7,#box9, #box10{
+            background-color: rgb(233, 85, 85);
+        }
     </style>
 </head>
 <body>
