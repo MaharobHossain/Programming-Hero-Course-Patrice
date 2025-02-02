@@ -18,10 +18,21 @@ h1{
 }
 .sidebar{
     grid-area: sidebar;
+    gap: 20px;
 }
 .advertise{
     grid-area: advertise;
 }
 .footer{
     grid-area: footer;
+}
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "header    header    header    header"
+    "nav      main      main      sidebar"
+    "nav      main      main      advertise"
+    "footer    footer    footer    footer"
+    ;
 }
