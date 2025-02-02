@@ -36,3 +36,21 @@ h1{
     "footer    footer    footer    footer"
     ;
 }
+
+
+
+
+@media screen and (max-width: 576px) {
+    .container{
+        gap: 15px;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "sidebar"
+        "advertise"
+        "footer"
+        ;
+    }
+    
+}
