@@ -35,6 +35,28 @@
         .container2 img{
             width: 100%;
         }
+        .translation-box, .inner-box{
+            width: 200px;
+            height: 200px;
+        }
+        .translation-box{
+            border: 5px solid rgb(9, 247, 247);
+            background-color: chartreuse;
+        }
+        .inner-box{
+            border: 5px solid rgb(245, 0, 0);
+            background-color: rgb(30, 210, 186);
+            /* transform: scale(0.6, 0.25); */
+            transform: rotate(29deg) translateX(10px) scale(0.5);
+        }
+        .inner-box:hover{
+            border: 5px solid rgb(245, 0, 0);
+            background-color: chocolate;
+            transform: rotate(53deg) translateX(50px) scale(0.8);
+        }
+
+
+
 
         @media screen and (max-width: 576px){
             .container2{
