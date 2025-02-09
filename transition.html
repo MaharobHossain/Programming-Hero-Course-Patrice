@@ -22,6 +22,20 @@
         .box:hover{
             width: 300px;
         }
+        .text-area{
+            width: 150px;
+            height: 150px;
+            border: 3px solid blueviolet;
+            text-align: center;
+            background-color: chartreuse;
+            font-size: 19px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .text-area:hover{
+            transition: width 1s ease-in-out 0.5s;
+            width: 300px;
+        }
     </style>
 </head>
 <body>
@@ -30,7 +44,7 @@
 
     <div class="box">box 1</div>
     <div class="box">box 2</div>
-    <div class="box">box 3</div>
+    <input type="text" placeholder="Text Me" class="text-area">
     
 </body>
 </html>
