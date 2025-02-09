@@ -9,6 +9,19 @@
         h1{
             text-align: center;
         }
+        .box{
+            width: 150px;
+            height: 150px;
+            border: 3px solid blueviolet;
+            text-align: center;
+            background-color: chartreuse;
+            margin-top: 10px;
+            /* property name | duration | easing function | delay */
+            transition: width 1s ease-in-out 0.5s;
+        }
+        .box:hover{
+            width: 300px;
+        }
     </style>
 </head>
 <body>
