@@ -4,6 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Var use in css</title>
+    <style>
+        :root{
+            --primary-color: purple;
+            --secondary-color: rgb(0, 199, 189);
+            --font-size: 22px;
+            --main-font:45px;
+        }
+        h1{
+            color: var(--primary-color);
+            font-size: var(--main-font);
+        }
+        p{
+            color: var(--secondary-color);
+            font-size: var(--font-size);
+        }
+        h2{
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            font-size: var(--main-font);
+        }
+    </style>
 </head>
 <body>
 
